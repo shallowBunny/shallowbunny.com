@@ -1,0 +1,269 @@
+beginningSchedule: 'Thu Aug 22 2024'
+botOldLineupMessage: '
+
+⚠️ This was the lineup for Moyn ⚠️
+
+'
+botMotd: 'Hello, welcome to this unofficial lineUp bot for Moyn festival, few infos:
+
+- You can search for DJ sets by typing their names
+
+- You can use the red or green dots below for disabling/enabling DJ changes notifications
+
+- Here is the web app url: <a href="https://shallowbunny.com/">shallowbunny.com</a> (Save it to your homescreen so it works offline)
+
+- @bigSisyBot is a similar bot running for Sisyphos
+
+- You can share this bot to your contacts using <a href="https://t.me/share/url?url=https%3A%2F%2Ft.me%2F%40shallowBunnyBot&text=Check%20out%20this%20awesome%20bot%21">this share link</a> 
+
+- You can pin the bot for easy access (similar to saved messages)
+
+Have fun! 😘' 
+
+meta:
+ nowShowShallowBunnyAd: false
+ nowShowDataSourceAd: false
+ nowShowSisyDuckAd: false
+ nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for Moyn festival"
+ nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
+ nowSubmitPR: "https://github.com/shallowBunny/shallowbunny.com"
+ botUrl:  "https://t.me/shallowBunnyBot"
+ aboutBigIcon: "bunny-192x192.png"
+ aboutShowShallowBunnyIcon: false
+ aboutShowSisyDuckIcon: true
+ nowMapImage: ""
+ roomYouAreHereEmoticon: '🐰'
+ mobileAppName: "Shallow Bunny"
+ prefix: "bunny"
+ title: "Moyn festival lineup"
+
+nbDaysForInput: 3
+buttons: ["Now", "ALL", "Help"]
+nowSkipClosed: false
+input: false
+
+rooms:
+  ["⛵️ Jekke Jolle", "🍸 Speziale", "🦁 M(W)ild Hilde", "🛝 Playground", "🪩 Discotheka", "🦄 Magischer Bazar", "🖨 Siebdruckfloor" ] 
+
+⛵️ Jekke Jolle: 
+- "1 13:00 120 0 Bizzarro Universe" # 2024-08-09
+- "1 15:00 120 0 Bonnie Ford" # 2024-08-09
+- "1 17:00 120 0 Avocado & Fab Massimo" # 2024-08-09
+- "1 19:00 120 0 Gwen Wayne & Nurmiri" # 2024-08-09
+- "1 21:00 120 0 Joseph Disco & Lampé" # 2024-08-09
+- "1 23:00 120 0 Daniel Krau" # 2024-08-09
+- "2 01:00 120 0 Surreal" # 2024-08-10
+- "2 03:00 120 0 Rachel Raw" # 2024-08-10
+- "2 05:00 120 0 Jedidiah" # 2024-08-10
+
+- "2 10:00 240 0 Jekke Jolle Allstars" # 2024-08-10
+- "2 14:00 120 0 Naya Lachs" # 2024-08-10
+- "2 16:00 120 0 Eva Vrijdag" # 2024-08-10
+- "2 18:00 120 0 Finn Bonin" # 2024-08-10
+- "2 20:00 120 0 Justin Tinderdate" # 2024-08-10
+- "2 22:00 120 0 Supergloss" # 2024-08-10
+- "3 00:00 120 0 Vinvar" # 2024-08-11
+- "3 02:00 180 0 Olivia Mendez" # 2024-08-11
+- "3 05:00 120 0 Bekno" # 2024-08-11
+
+- "3 11:00 150 0 Tudse" # 2024-08-11
+- "3 13:30 120 0 Faia" # 2024-08-11
+- "3 15:30 120 0 Laxberger" # 2024-08-11
+- "3 17:30 90 0 Township Rebellion" # 2024-08-11
+
+🍸 Speziale: 
+- "1 16:00 90 0 Brass Riot *Live*" # 2024-08-09
+- "1 17:30 90 0 Das Maer *Live*" # 2024-08-09
+- "1 19:00 120 0 Haptik" # 2024-08-09
+- "1 21:00 150 0 Elisa Elisa" # 2024-08-09
+- "1 23:30 150 0 Jake The Rapper" # 2024-08-09
+- "2 02:00 120 0 Harry Nipples" # 2024-08-10
+- "2 04:00 120 0 Nyembamba" # 2024-08-10
+- "2 06:00 120 0 Dépén:Dance" # 2024-08-10
+
+- "2 11:00 150 0 Burntale" # 2024-08-10
+- "2 13:30 150 0 Radiolovelove" # 2024-08-10
+- "2 16:00 120 0 Sonnensysteme" # 2024-08-10
+- "2 18:00 120 0 Mr. Ciao" # 2024-08-10
+- "2 20:00 120 0 Ni:Vek" # 2024-08-10
+- "2 22:00 120 0 Sarah Lynn" # 2024-08-10
+- "3 00:00 120 0 Airi *Live*" # 2024-08-10
+- "3 02:00 120 0 Goa Jonas" # 2024-08-11
+- "3 04:00 120 0 Djoanna" # 2024-08-11
+- "3 06:00 120 0 Rhábia" # 2024-08-11
+- "3 08:00 60 0 Andy Strauss' Illegale Ravemesse" # 2024-08-11
+
+- "3 11:00 150 0 Falscher Hase" # 2024-08-11
+- "3 13:30 150 0 Mila Stern" # 2024-08-11
+- "3 16:00 120 0 Delia Plangg" # 2024-08-11
+- "3 18:00 150 0 Sims & May Din" # 2024-08-11
+- "3 20:30 90 0 Maria Die Ruhe *Live*" # 2024-08-11
+
+🦁 M(W)ild Hilde:
+- "1 14:00 150 0 El Batos" # 2024-08-09
+- "1 16:30 60 0 Lui Mafuta *Live*" # 2024-08-09
+- "1 17:30 120 0 Isabeau Fort" # 2024-08-09
+- "1 19:30 120 0 Jane Ule" # 2024-08-09
+- "1 21:30 120 0 Bonfante" # 2024-08-10
+- "1 23:30 120 0 Bisu" # 2024-08-10
+- "2 01:30 90 0 Kon Faber *Live*" # 2024-08-10
+- "2 03:00 120 0 Urem" # 2024-08-10
+- "2 05:00 120 0 Le.Fu & Baskind" # 2024-08-10
+- "2 07:00 120 0 Sörös" # 2024-08-10
+- "2 09:00 120 0 Jetski Freunde Saarbrücken" # 2024-08-10
+
+- "2 13:00 60 0 Thujan *Live*" # 2024-08-10
+- "2 14:00 120 0 Commander Love" # 2024-08-10
+- "2 16:00 120 0 Ida Daugaard" # 2024-08-10
+- "2 18:00 120 0 Coco Loris" # 2024-08-10
+- "2 20:00 120 0 Haensen & Gretel" # 2024-08-10
+- "2 22:00 120 0 Tvisker" # 2024-08-11
+- "3 00:00 120 0 Maka" # 2024-08-11
+- "3 02:00 120 0 Arne Schattenberg" # 2024-08-11
+- "3 04:00 120 0 Kunterweiß" # 2024-08-11
+- "3 06:00 120 0 Nora" # 2024-08-11
+- "3 08:00 60 0 Flave *Live*" # 2024-08-11
+- "3 09:00 120 0 R3nata" # 2024-08-11
+
+- "3 13:00 120 0 Martha Van Straaten" # 2024-08-11
+- "3 15:00 120 0 Sutsche" # 2024-08-11
+- "3 17:00 120 0 Lisa Luka" # 2024-08-11
+- "3 19:00 120 0 RSS Disco" # 2024-08-11
+
+🛝 Playground:
+- "0 18:00 180 0 Kaos Karaoke" # 2024-08-08
+- "0 21:00 120 0 Miniyme b2b Modulism" # 2024-08-08
+- "0 23:00 120 0 Yetti Meissner" # 2024-08-08
+- "1 01:00 120 0 Stefan Vöst" # 2024-08-09
+- "1 03:00 120 0 Aphe" # 2024-08-09
+
+- "1 15:00 180 0 Graffiti Workshop" # 2024-08-09
+- "1 18:00 60 0 Fl4vorblu3 & CRL" # 2024-08-09
+- "1 19:00 90 0 PPS" # 2024-08-09
+- "1 20:30 120 0 Annca feat. Monch MC" # 2024-08-09
+- "1 22:30 120 0 Urbnmowgli" # 2024-08-09
+- "2 00:30 120 0 Hanna Baertig" # 2024-08-10
+- "2 02:30 90 0 Monsk" # 2024-08-10
+- "2 04:00 90 0 Hihat" # 2024-08-10
+
+- "2 12:30 90 0 Shirakawa" # 2024-08-10
+- "2 14:00 90 0 Bingo" # 2024-08-10
+- "2 15:30 90 0 Face*" # 2024-08-10
+- "2 17:00 90 0 Salty&Sour" # 2024-08-10
+- "2 18:30 90 0 Gili" # 2024-08-10
+- "2 20:00 120 0 DJ Sprudel b2b Samcho Panza" # 2024-08-10
+- "2 22:00 120 0 DJ Super Rush b2b Kimchi Cora" # 2024-08-10
+- "3 00:00 90 0 Ben Derris" # 2024-08-11
+- "3 01:30 90 0 Melanchromie" # 2024-08-11
+- "3 03:00 90 0 DJ Kareless" # 2024-08-11
+- "3 04:30 120 0 DJ Marie b2b Schumacher b2b Zwinki Zwonki" # 2024-08-11
+- "3 06:30 120 0 Turbo Tjorgen b2b Spielkamerad" # 2024-08-11
+- "3 08:30 120 0 Beate" # 2024-08-11
+- "3 10:30 90 0 Pralina" # 2024-08-11
+- "3 12:00 120 0 F3lor b2b Mats Muster" # 2024-08-11
+- "3 14:00 90 0 C3to" # 2024-08-11
+- "3 15:30 90 0 Nahuel" # 2024-08-11
+- "3 17:00 120 0 Crille & Tamalt" # 2024-08-11
+
+🪩 Discotheka:
+- "0 22:00 120 0 VEB Elektrokunst" # 2024-08-08
+- "1 00:00 120 0 Justus b2b Milla Lou" # 2024-08-09
+- "1 02:00 120 0 Inhärenz b2b Vallevalencia" # 2024-08-09
+- "1 04:00 120 0 The Second I" # 2024-08-09
+
+- "1 13:00 90 0 Glitterboi" # 2024-08-09
+- "1 14:30 120 0 Cloppi's" # 2024-08-09
+- "1 16:30 120 0 Nici Palm" # 2024-08-09
+- "1 18:30 120 0 Klackwerk" # 2024-08-09
+- "1 20:30 120 0 Fauna" # 2024-08-09
+- "1 22:30 120 0 Ben_Glock" # 2024-08-09
+- "2 00:30 120 0 A-Flex" # 2024-08-10
+- "2 02:30 120 0 Kronik b2b Dead Sync" # 2024-08-10
+- "2 04:30 120 0 Eightball" # 2024-08-10
+- "2 06:30 120 0 Remsi" # 2024-08-10
+- "2 08:30 120 0 Noazem" # 2024-08-10
+- "2 10:30 90 0 Speedboys *Hybrid Set*" # 2024-08-10
+- "2 12:00 120 0 Mondenkind" # 2024-08-10
+- "2 14:00 90 0 Eskalin *Live*" # 2024-08-10
+- "2 15:30 150 0 Kaddi Kippenberger" # 2024-08-10
+- "2 18:00 120 0 Grace & Ghetto" # 2024-08-10
+- "2 20:00 120 0 Bebbibelli b2b Simml" # 2024-08-10
+- "2 22:00 120 0 Erhard Schuster" # 2024-08-10
+- "3 00:00 120 0 Luv Attack" # 2024-08-11
+- "3 02:00 120 0 Danito San" # 2024-08-11
+- "3 04:00 120 0 C'mon" # 2024-08-11
+- "3 06:00 120 0 Ana Cover" # 2024-08-11
+- "3 08:00 120 0 Praise b2b Sarah de la Rosa" # 2024-08-11
+- "3 10:00 120 0 Toto Caramello" # 2024-08-11
+- "3 12:00 120 0 Late Night Jockel Session" # 2024-08-11
+- "3 14:00 120 0 Lupo" # 2024-08-11
+- "3 16:00 120 0 Trauma Mia" # 2024-08-11
+- "3 18:00 120 0 Ivana Parti" # 2024-08-11
+- "3 20:00 90 0 Nik Sour b2b Allodrop" # 2024-08-11
+- "3 21:30 90 0 Jøn b2b Bakaro" # 2024-08-11
+
+🦄 Magischer Bazar:
+- "0 18:00 180 0 Mirko Machine" # 2024-08-08
+- "0 21:00 30 0 Goldy.mp3 *Live*" # 2024-08-08
+- "0 21:30 60 0 Dozza & Tonyaa *Live*" # 2024-08-08
+- "0 22:30 150 0 Spion & Spion" # 2024-08-08
+- "1 01:00 120 0 Seagull Gall" # 2024-08-09
+- "1 03:00 120 0 Tantchen 363" # 2024-08-09
+
+- "1 14:30 60 0 Cintag & George Geil *Live*" # 2024-08-09
+- "1 16:30 60 0 Lasse Junge *Live*" # 2024-08-09
+- "1 18:30 60 0 Kabel 8 *Live*" # 2024-08-09
+- "1 20:00 120 0 Shay" # 2024-08-09
+- "1 22:00 120 0 Thrive & Gus" # 2024-08-09
+- "2 00:00 120 0 Master of Recipe" # 2024-08-10
+- "2 02:00 120 0 Neya" # 2024-08-10
+- "2 04:00 120 0 Blyss b2b 2Bias" # 2024-08-10
+
+- "2 14:30 60 0 Sad Fußball *Live*" # 2024-08-10
+- "2 16:30 60 0 Between4and5 *Live*" # 2024-08-10
+- "2 18:30 60 0 Versacer *Live*" # 2024-08-10
+- "2 20:30 60 0 Das Blanke Extrem *Live*" # 2024-08-10
+- "2 22:00 120 0 Maxima" # 2024-08-10
+- "3 00:00 120 0 HDGDL" # 2024-08-11
+- "3 02:00 120 0 Sub Semantics" # 2024-08-11
+- "3 04:00 120 0 Lax Morenz" # 2024-08-11
+- "3 06:00 120 0 Devino" # 2024-08-11
+- "3 08:00 180 0 Open Stage" # 2024-08-11
+
+- "3 14:00 120 0 Acid Burrito" # 2024-08-11
+- "3 16:00 120 0 Veucht" # 2024-08-11
+- "3 18:00 120 0 Ohnemilchundzucker" # 2024-08-11
+- "3 20:00 120 0 Surprise" # 2024-08-11
+- "3 22:00 120 0 Kobilicious" # 2024-08-11
+
+🖨 Siebdruckfloor:
+- "1 14:00 90 0 Karmakind *Live*" # 2024-08-09
+- "1 15:30 120 0 Robot Mai" # 2024-08-09
+- "1 17:30 120 0 Charley White" # 2024-08-09
+- "1 19:30 120 0 Philipp Aqualand" # 2024-08-09
+- "1 21:30 90 0 Acid *Live*" # 2024-08-09
+- "1 23:00 120 0 Jonathan Haehn" # 2024-08-09
+- "2 01:00 120 0 Lola Moon b2b Lisson" # 2024-08-10
+- "2 03:00 120 0 Mülheimer Perle" # 2024-08-10
+- "2 05:00 90 0 Kraethe" # 2024-08-10
+- "2 06:30 120 0 Suricata" # 2024-08-10
+- "2 08:30 120 0 Magnus" # 2024-08-10
+
+- "2 11:00 60 0 Dumalix *Live*" # 2024-08-10
+- "2 12:00 90 0 En Mic" # 2024-08-10
+- "2 13:30 90 0 Printshopboyz" # 2024-08-10
+- "2 15:00 120 0 C.A Ramirez" # 2024-08-10
+- "2 17:00 120 0 Patrik Nuwak und Watson *Live*" # 2024-08-10
+- "2 19:00 120 0 Wir Sind Die Sonne *Live*" # 2024-08-10
+- "2 21:00 120 0 Nada Formosa" # 2024-08-10
+- "2 23:00 120 0 Bigzy" # 2024-08-10
+- "3 01:00 120 0 Anicca" # 2024-08-11
+- "3 03:00 120 0 Dr.Warte:Mal and Friends A’Live" # 2024-08-11
+- "3 05:00 180 0 Joe Lion" # 2024-08-11
+- "3 08:00 120 0 Meraki" # 2024-08-11
+
+- "3 10:00 120 0 Professor Rave" # 2024-08-11
+- "3 12:00 120 0 Rhabia" # 2024-08-11
+- "3 14:00 120 0 There You Ghost" # 2024-08-11
+- "3 16:00 120 0 Beripolar" # 2024-08-11
+- "3 18:00 360 0 Siebdruckjam *Live*" # 2024-08-11

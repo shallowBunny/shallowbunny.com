@@ -1,0 +1,84 @@
+name: Post Merge Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  post-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history so we can access any commit
+
+      - name: Extract Repository Name
+        id: extract_repo_name
+        run: |
+          REPO_NAME=$(basename ${{ github.repository }})
+          echo "REPO_NAME=$REPO_NAME" >> $GITHUB_ENV
+
+      - name: Extract Merge Information
+        id: extract_info
+        run: |
+          PR_NUMBER=$(jq --raw-output .pull_request.number < $GITHUB_EVENT_PATH)
+          PR_AUTHOR=$(jq --raw-output .pull_request.user.login < $GITHUB_EVENT_PATH)
+          PR_MERGER=$(jq --raw-output .pull_request.merged_by.login < $GITHUB_EVENT_PATH)
+          REPO_URL="https://github.com/${{ github.repository }}/pull/$PR_NUMBER"
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+          echo "PR_AUTHOR=$PR_AUTHOR" >> $GITHUB_ENV
+          echo "PR_MERGER=$PR_MERGER" >> $GITHUB_ENV
+          echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
+
+      - name: Check for Force Push or Merge
+        id: check_push_type
+        run: |
+          PREVIOUS_COMMIT=$(jq --raw-output .before < $GITHUB_EVENT_PATH)
+          CURRENT_COMMIT=$(jq --raw-output .after < $GITHUB_EVENT_PATH)
+
+          if [ "$PREVIOUS_COMMIT" = "null" ] || [ "$CURRENT_COMMIT" = "null" ]; then
+            echo "Commit information is not available. Skipping push type check."
+            echo "PUSH_TYPE=unknown" >> $GITHUB_ENV
+          else
+            COMMIT_COUNT=$(git rev-list --count $PREVIOUS_COMMIT..$CURRENT_COMMIT)
+            if [ "$COMMIT_COUNT" -gt "1" ]; then
+              PUSH_TYPE="merge"
+            else
+              PUSH_TYPE="force push"
+            fi
+            echo "PUSH_TYPE=$PUSH_TYPE" >> $GITHUB_ENV
+          fi
+
+      - name: Capture User Information
+        id: user_info
+        run: |
+          PUSH_USER="${{ github.actor }}"
+          PUSHER_NAME="${{ github.event.pusher.name }}"
+          PUSHER_EMAIL="${{ github.event.pusher.email }}"
+          echo "PUSH_USER=$PUSH_USER" >> $GITHUB_ENV
+          echo "PUSHER_NAME=$PUSHER_NAME" >> $GITHUB_ENV
+          echo "PUSHER_EMAIL=$PUSHER_EMAIL" >> $GITHUB_ENV
+
+      - name: Make POST request
+        run: |
+          RESPONSE=$(curl -s -o /dev/stderr -w "%{http_code}" -X POST https://${{ env.REPO_NAME }}/api \
+          -H "Authorization: Bearer ${{ secrets.SERVER_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{
+                "merged_by": "'"${{ env.PR_MERGER }}"'",
+                "created_by": "'"${{ env.PR_AUTHOR }}"'",
+                "pr_url": "'"${{ env.REPO_URL }}"'",
+                "push_type": "'"${{ env.PUSH_TYPE }}"'",
+                "pushed_by": "'"${{ env.PUSH_USER }}"'",
+                "pusher_name": "'"${{ env.PUSHER_NAME }}"'",
+                "pusher_email": "'"${{ env.PUSHER_EMAIL }}"'"
+              }')
+          if [ "$RESPONSE" -ne 200 ]; then
+            echo "Error: POST request failed with status code $RESPONSE"
+            exit 1
+          else
+            echo "POST request succeeded with status code $RESPONSE"
+          fi

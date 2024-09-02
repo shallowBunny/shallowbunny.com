@@ -42,228 +42,995 @@ buttons: ["Now", "ALL", "Help"]
 nowSkipClosed: false
 input: false
 
-rooms:
-  ["⛵️ Jekke Jolle", "🍸 Speziale", "🦁 M(W)ild Hilde", "🛝 Playground", "🪩 Discotheka", "🦄 Magischer Bazar", "🖨 Siebdruckfloor" ] 
-
-⛵️ Jekke Jolle: 
-- "1 13:00 120 0 Bizzarro Universe" # 2024-08-09
-- "1 15:00 120 0 Bonnie Ford" # 2024-08-09
-- "1 17:00 120 0 Avocado & Fab Massimo" # 2024-08-09
-- "1 19:00 120 0 Gwen Wayne & Nurmiri" # 2024-08-09
-- "1 21:00 120 0 Joseph Disco & Lampé" # 2024-08-09
-- "1 23:00 120 0 Daniel Krau" # 2024-08-09
-- "2 01:00 120 0 Surreal" # 2024-08-10
-- "2 03:00 120 0 Rachel Raw" # 2024-08-10
-- "2 05:00 120 0 Jedidiah" # 2024-08-10
-
-- "2 10:00 240 0 Jekke Jolle Allstars" # 2024-08-10
-- "2 14:00 120 0 Naya Lachs" # 2024-08-10
-- "2 16:00 120 0 Eva Vrijdag" # 2024-08-10
-- "2 18:00 120 0 Finn Bonin" # 2024-08-10
-- "2 20:00 120 0 Justin Tinderdate" # 2024-08-10
-- "2 22:00 120 0 Supergloss" # 2024-08-10
-- "3 00:00 120 0 Vinvar" # 2024-08-11
-- "3 02:00 180 0 Olivia Mendez" # 2024-08-11
-- "3 05:00 120 0 Bekno" # 2024-08-11
-
-- "3 11:00 150 0 Tudse" # 2024-08-11
-- "3 13:30 120 0 Faia" # 2024-08-11
-- "3 15:30 120 0 Laxberger" # 2024-08-11
-- "3 17:30 90 0 Township Rebellion" # 2024-08-11
-
-🍸 Speziale: 
-- "1 16:00 90 0 Brass Riot *Live*" # 2024-08-09
-- "1 17:30 90 0 Das Maer *Live*" # 2024-08-09
-- "1 19:00 120 0 Haptik" # 2024-08-09
-- "1 21:00 150 0 Elisa Elisa" # 2024-08-09
-- "1 23:30 150 0 Jake The Rapper" # 2024-08-09
-- "2 02:00 120 0 Harry Nipples" # 2024-08-10
-- "2 04:00 120 0 Nyembamba" # 2024-08-10
-- "2 06:00 120 0 Dépén:Dance" # 2024-08-10
-
-- "2 11:00 150 0 Burntale" # 2024-08-10
-- "2 13:30 150 0 Radiolovelove" # 2024-08-10
-- "2 16:00 120 0 Sonnensysteme" # 2024-08-10
-- "2 18:00 120 0 Mr. Ciao" # 2024-08-10
-- "2 20:00 120 0 Ni:Vek" # 2024-08-10
-- "2 22:00 120 0 Sarah Lynn" # 2024-08-10
-- "3 00:00 120 0 Airi *Live*" # 2024-08-10
-- "3 02:00 120 0 Goa Jonas" # 2024-08-11
-- "3 04:00 120 0 Djoanna" # 2024-08-11
-- "3 06:00 120 0 Rhábia" # 2024-08-11
-- "3 08:00 60 0 Andy Strauss' Illegale Ravemesse" # 2024-08-11
-
-- "3 11:00 150 0 Falscher Hase" # 2024-08-11
-- "3 13:30 150 0 Mila Stern" # 2024-08-11
-- "3 16:00 120 0 Delia Plangg" # 2024-08-11
-- "3 18:00 150 0 Sims & May Din" # 2024-08-11
-- "3 20:30 90 0 Maria Die Ruhe *Live*" # 2024-08-11
-
-🦁 M(W)ild Hilde:
-- "1 14:00 150 0 El Batos" # 2024-08-09
-- "1 16:30 60 0 Lui Mafuta *Live*" # 2024-08-09
-- "1 17:30 120 0 Isabeau Fort" # 2024-08-09
-- "1 19:30 120 0 Jane Ule" # 2024-08-09
-- "1 21:30 120 0 Bonfante" # 2024-08-10
-- "1 23:30 120 0 Bisu" # 2024-08-10
-- "2 01:30 90 0 Kon Faber *Live*" # 2024-08-10
-- "2 03:00 120 0 Urem" # 2024-08-10
-- "2 05:00 120 0 Le.Fu & Baskind" # 2024-08-10
-- "2 07:00 120 0 Sörös" # 2024-08-10
-- "2 09:00 120 0 Jetski Freunde Saarbrücken" # 2024-08-10
-
-- "2 13:00 60 0 Thujan *Live*" # 2024-08-10
-- "2 14:00 120 0 Commander Love" # 2024-08-10
-- "2 16:00 120 0 Ida Daugaard" # 2024-08-10
-- "2 18:00 120 0 Coco Loris" # 2024-08-10
-- "2 20:00 120 0 Haensen & Gretel" # 2024-08-10
-- "2 22:00 120 0 Tvisker" # 2024-08-11
-- "3 00:00 120 0 Maka" # 2024-08-11
-- "3 02:00 120 0 Arne Schattenberg" # 2024-08-11
-- "3 04:00 120 0 Kunterweiß" # 2024-08-11
-- "3 06:00 120 0 Nora" # 2024-08-11
-- "3 08:00 60 0 Flave *Live*" # 2024-08-11
-- "3 09:00 120 0 R3nata" # 2024-08-11
-
-- "3 13:00 120 0 Martha Van Straaten" # 2024-08-11
-- "3 15:00 120 0 Sutsche" # 2024-08-11
-- "3 17:00 120 0 Lisa Luka" # 2024-08-11
-- "3 19:00 120 0 RSS Disco" # 2024-08-11
-
-🛝 Playground:
-- "0 18:00 180 0 Kaos Karaoke" # 2024-08-08
-- "0 21:00 120 0 Miniyme b2b Modulism" # 2024-08-08
-- "0 23:00 120 0 Yetti Meissner" # 2024-08-08
-- "1 01:00 120 0 Stefan Vöst" # 2024-08-09
-- "1 03:00 120 0 Aphe" # 2024-08-09
-
-- "1 15:00 180 0 Graffiti Workshop" # 2024-08-09
-- "1 18:00 60 0 Fl4vorblu3 & CRL" # 2024-08-09
-- "1 19:00 90 0 PPS" # 2024-08-09
-- "1 20:30 120 0 Annca feat. Monch MC" # 2024-08-09
-- "1 22:30 120 0 Urbnmowgli" # 2024-08-09
-- "2 00:30 120 0 Hanna Baertig" # 2024-08-10
-- "2 02:30 90 0 Monsk" # 2024-08-10
-- "2 04:00 90 0 Hihat" # 2024-08-10
-
-- "2 12:30 90 0 Shirakawa" # 2024-08-10
-- "2 14:00 90 0 Bingo" # 2024-08-10
-- "2 15:30 90 0 Face*" # 2024-08-10
-- "2 17:00 90 0 Salty&Sour" # 2024-08-10
-- "2 18:30 90 0 Gili" # 2024-08-10
-- "2 20:00 120 0 DJ Sprudel b2b Samcho Panza" # 2024-08-10
-- "2 22:00 120 0 DJ Super Rush b2b Kimchi Cora" # 2024-08-10
-- "3 00:00 90 0 Ben Derris" # 2024-08-11
-- "3 01:30 90 0 Melanchromie" # 2024-08-11
-- "3 03:00 90 0 DJ Kareless" # 2024-08-11
-- "3 04:30 120 0 DJ Marie b2b Schumacher b2b Zwinki Zwonki" # 2024-08-11
-- "3 06:30 120 0 Turbo Tjorgen b2b Spielkamerad" # 2024-08-11
-- "3 08:30 120 0 Beate" # 2024-08-11
-- "3 10:30 90 0 Pralina" # 2024-08-11
-- "3 12:00 120 0 F3lor b2b Mats Muster" # 2024-08-11
-- "3 14:00 90 0 C3to" # 2024-08-11
-- "3 15:30 90 0 Nahuel" # 2024-08-11
-- "3 17:00 120 0 Crille & Tamalt" # 2024-08-11
-
-🪩 Discotheka:
-- "0 22:00 120 0 VEB Elektrokunst" # 2024-08-08
-- "1 00:00 120 0 Justus b2b Milla Lou" # 2024-08-09
-- "1 02:00 120 0 Inhärenz b2b Vallevalencia" # 2024-08-09
-- "1 04:00 120 0 The Second I" # 2024-08-09
-
-- "1 13:00 90 0 Glitterboi" # 2024-08-09
-- "1 14:30 120 0 Cloppi's" # 2024-08-09
-- "1 16:30 120 0 Nici Palm" # 2024-08-09
-- "1 18:30 120 0 Klackwerk" # 2024-08-09
-- "1 20:30 120 0 Fauna" # 2024-08-09
-- "1 22:30 120 0 Ben_Glock" # 2024-08-09
-- "2 00:30 120 0 A-Flex" # 2024-08-10
-- "2 02:30 120 0 Kronik b2b Dead Sync" # 2024-08-10
-- "2 04:30 120 0 Eightball" # 2024-08-10
-- "2 06:30 120 0 Remsi" # 2024-08-10
-- "2 08:30 120 0 Noazem" # 2024-08-10
-- "2 10:30 90 0 Speedboys *Hybrid Set*" # 2024-08-10
-- "2 12:00 120 0 Mondenkind" # 2024-08-10
-- "2 14:00 90 0 Eskalin *Live*" # 2024-08-10
-- "2 15:30 150 0 Kaddi Kippenberger" # 2024-08-10
-- "2 18:00 120 0 Grace & Ghetto" # 2024-08-10
-- "2 20:00 120 0 Bebbibelli b2b Simml" # 2024-08-10
-- "2 22:00 120 0 Erhard Schuster" # 2024-08-10
-- "3 00:00 120 0 Luv Attack" # 2024-08-11
-- "3 02:00 120 0 Danito San" # 2024-08-11
-- "3 04:00 120 0 C'mon" # 2024-08-11
-- "3 06:00 120 0 Ana Cover" # 2024-08-11
-- "3 08:00 120 0 Praise b2b Sarah de la Rosa" # 2024-08-11
-- "3 10:00 120 0 Toto Caramello" # 2024-08-11
-- "3 12:00 120 0 Late Night Jockel Session" # 2024-08-11
-- "3 14:00 120 0 Lupo" # 2024-08-11
-- "3 16:00 120 0 Trauma Mia" # 2024-08-11
-- "3 18:00 120 0 Ivana Parti" # 2024-08-11
-- "3 20:00 90 0 Nik Sour b2b Allodrop" # 2024-08-11
-- "3 21:30 90 0 Jøn b2b Bakaro" # 2024-08-11
-
-🦄 Magischer Bazar:
-- "0 18:00 180 0 Mirko Machine" # 2024-08-08
-- "0 21:00 30 0 Goldy.mp3 *Live*" # 2024-08-08
-- "0 21:30 60 0 Dozza & Tonyaa *Live*" # 2024-08-08
-- "0 22:30 150 0 Spion & Spion" # 2024-08-08
-- "1 01:00 120 0 Seagull Gall" # 2024-08-09
-- "1 03:00 120 0 Tantchen 363" # 2024-08-09
-
-- "1 14:30 60 0 Cintag & George Geil *Live*" # 2024-08-09
-- "1 16:30 60 0 Lasse Junge *Live*" # 2024-08-09
-- "1 18:30 60 0 Kabel 8 *Live*" # 2024-08-09
-- "1 20:00 120 0 Shay" # 2024-08-09
-- "1 22:00 120 0 Thrive & Gus" # 2024-08-09
-- "2 00:00 120 0 Master of Recipe" # 2024-08-10
-- "2 02:00 120 0 Neya" # 2024-08-10
-- "2 04:00 120 0 Blyss b2b 2Bias" # 2024-08-10
-
-- "2 14:30 60 0 Sad Fußball *Live*" # 2024-08-10
-- "2 16:30 60 0 Between4and5 *Live*" # 2024-08-10
-- "2 18:30 60 0 Versacer *Live*" # 2024-08-10
-- "2 20:30 60 0 Das Blanke Extrem *Live*" # 2024-08-10
-- "2 22:00 120 0 Maxima" # 2024-08-10
-- "3 00:00 120 0 HDGDL" # 2024-08-11
-- "3 02:00 120 0 Sub Semantics" # 2024-08-11
-- "3 04:00 120 0 Lax Morenz" # 2024-08-11
-- "3 06:00 120 0 Devino" # 2024-08-11
-- "3 08:00 180 0 Open Stage" # 2024-08-11
-
-- "3 14:00 120 0 Acid Burrito" # 2024-08-11
-- "3 16:00 120 0 Veucht" # 2024-08-11
-- "3 18:00 120 0 Ohnemilchundzucker" # 2024-08-11
-- "3 20:00 120 0 Surprise" # 2024-08-11
-- "3 22:00 120 0 Kobilicious" # 2024-08-11
-
-🖨 Siebdruckfloor:
-- "1 14:00 90 0 Karmakind *Live*" # 2024-08-09
-- "1 15:30 120 0 Robot Mai" # 2024-08-09
-- "1 17:30 120 0 Charley White" # 2024-08-09
-- "1 19:30 120 0 Philipp Aqualand" # 2024-08-09
-- "1 21:30 90 0 Acid *Live*" # 2024-08-09
-- "1 23:00 120 0 Jonathan Haehn" # 2024-08-09
-- "2 01:00 120 0 Lola Moon b2b Lisson" # 2024-08-10
-- "2 03:00 120 0 Mülheimer Perle" # 2024-08-10
-- "2 05:00 90 0 Kraethe" # 2024-08-10
-- "2 06:30 120 0 Suricata" # 2024-08-10
-- "2 08:30 120 0 Magnus" # 2024-08-10
-
-- "2 11:00 60 0 Dumalix *Live*" # 2024-08-10
-- "2 12:00 90 0 En Mic" # 2024-08-10
-- "2 13:30 90 0 Printshopboyz" # 2024-08-10
-- "2 15:00 120 0 C.A Ramirez" # 2024-08-10
-- "2 17:00 120 0 Patrik Nuwak und Watson *Live*" # 2024-08-10
-- "2 19:00 120 0 Wir Sind Die Sonne *Live*" # 2024-08-10
-- "2 21:00 120 0 Nada Formosa" # 2024-08-10
-- "2 23:00 120 0 Bigzy" # 2024-08-10
-- "3 01:00 120 0 Anicca" # 2024-08-11
-- "3 03:00 120 0 Dr.Warte:Mal and Friends A’Live" # 2024-08-11
-- "3 05:00 180 0 Joe Lion" # 2024-08-11
-- "3 08:00 120 0 Meraki" # 2024-08-11
-
-- "3 10:00 120 0 Professor Rave" # 2024-08-11
-- "3 12:00 120 0 Rhabia" # 2024-08-11
-- "3 14:00 120 0 There You Ghost" # 2024-08-11
-- "3 16:00 120 0 Beripolar" # 2024-08-11
-- "3 18:00 360 0 Siebdruckjam *Live*" # 2024-08-11
+lineup:
+  rooms:
+    - "⛵️ Jekke Jolle"
+    - "🍸 Speziale"
+    - "🦁 M(W)ild Hilde"
+    - "🛝 Playground"
+    - "🪩 Discotheka"
+    - "🦄 Magischer Bazar"
+    - "🖨 Siebdruckfloor"
+  sets:
+    "⛵️ Jekke Jolle":
+      - day: 1
+        duration: 120
+        dj: Bizzarro Universe
+        hour: 13
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Bonnie Ford
+        hour: 15
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Avocado & Fab Massimo
+        hour: 17
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Gwen Wayne & Nurmiri
+        hour: 19
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Joseph Disco & Lampé
+        hour: 21
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Daniel Krau
+        hour: 23
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Surreal
+        hour: 1
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Rachel Raw
+        hour: 3
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Jedidiah
+        hour: 5
+        minute: 0
+      - day: 2
+        duration: 240
+        dj: Jekke Jolle Allstars
+        hour: 10
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Naya Lachs
+        hour: 14
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Eva Vrijdag
+        hour: 16
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Finn Bonin
+        hour: 18
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Justin Tinderdate
+        hour: 20
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Supergloss
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Vinvar
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 180
+        dj: Olivia Mendez
+        hour: 2
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Bekno
+        hour: 5
+        minute: 0
+      - day: 3
+        duration: 150
+        dj: Tudse
+        hour: 11
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Faia
+        hour: 13
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: Laxberger
+        hour: 15
+        minute: 30
+      - day: 3
+        duration: 90
+        dj: Township Rebellion
+        hour: 17
+        minute: 30
+    "🍸 Speziale":
+      - day: 1
+        duration: 90
+        dj: Brass Riot *Live*
+        hour: 16
+        minute: 0
+      - day: 1
+        duration: 90
+        dj: Das Maer *Live*
+        hour: 17
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Haptik
+        hour: 19
+        minute: 0
+      - day: 1
+        duration: 150
+        dj: Elisa Elisa
+        hour: 21
+        minute: 0
+      - day: 1
+        duration: 150
+        dj: Jake The Rapper
+        hour: 23
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Harry Nipples
+        hour: 2
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Nyembamba
+        hour: 4
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Dépén:Dance
+        hour: 6
+        minute: 0
+      - day: 2
+        duration: 150
+        dj: Burntale
+        hour: 11
+        minute: 0
+      - day: 2
+        duration: 150
+        dj: Radiolovelove
+        hour: 13
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Sonnensysteme
+        hour: 16
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Mr. Ciao
+        hour: 18
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Ni:Vek
+        hour: 20
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Sarah Lynn
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Airi *Live*
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Goa Jonas
+        hour: 2
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Djoanna
+        hour: 4
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Rhábia
+        hour: 6
+        minute: 0
+      - day: 3
+        duration: 60
+        dj: Andy Strauss' Illegale Ravemesse
+        hour: 8
+        minute: 0
+      - day: 3
+        duration: 150
+        dj: Falscher Hase
+        hour: 11
+        minute: 0
+      - day: 3
+        duration: 150
+        dj: Mila Stern
+        hour: 13
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: Delia Plangg
+        hour: 16
+        minute: 0
+      - day: 3
+        duration: 150
+        dj: Sims & May Din
+        hour: 18
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Maria Die Ruhe *Live*
+        hour: 20
+        minute: 30
+    "🖨 Siebdruckfloor":
+      - day: 1
+        duration: 90
+        dj: Karmakind *Live*
+        hour: 14
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Robot Mai
+        hour: 15
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Charley White
+        hour: 17
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Philipp Aqualand
+        hour: 19
+        minute: 30
+      - day: 1
+        duration: 90
+        dj: Acid *Live*
+        hour: 21
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Jonathan Haehn
+        hour: 23
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Lola Moon b2b Lisson
+        hour: 1
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Mülheimer Perle
+        hour: 3
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Kraethe
+        hour: 5
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Suricata
+        hour: 6
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Magnus
+        hour: 8
+        minute: 30
+      - day: 2
+        duration: 60
+        dj: Dumalix *Live*
+        hour: 11
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: En Mic
+        hour: 12
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Printshopboyz
+        hour: 13
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: C.A Ramirez
+        hour: 15
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Patrik Nuwak und Watson *Live*
+        hour: 17
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Wir Sind Die Sonne *Live*
+        hour: 19
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Nada Formosa
+        hour: 21
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Bigzy
+        hour: 23
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Anicca
+        hour: 1
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Dr.Warte:Mal and Friends A’Live
+        hour: 3
+        minute: 0
+      - day: 3
+        duration: 180
+        dj: Joe Lion
+        hour: 5
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Meraki
+        hour: 8
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Professor Rave
+        hour: 10
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Rhabia
+        hour: 12
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: There You Ghost
+        hour: 14
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Beripolar
+        hour: 16
+        minute: 0
+      - day: 3
+        duration: 360
+        dj: Siebdruckjam *Live*
+        hour: 18
+        minute: 0
+    "🛝 Playground":
+      - day: 0
+        duration: 180
+        dj: Kaos Karaoke
+        hour: 18
+        minute: 0
+      - day: 0
+        duration: 120
+        dj: Miniyme b2b Modulism
+        hour: 21
+        minute: 0
+      - day: 0
+        duration: 120
+        dj: Yetti Meissner
+        hour: 23
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Stefan Vöst
+        hour: 1
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Aphe
+        hour: 3
+        minute: 0
+      - day: 1
+        duration: 180
+        dj: Graffiti Workshop
+        hour: 15
+        minute: 0
+      - day: 1
+        duration: 60
+        dj: Fl4vorblu3 & CRL
+        hour: 18
+        minute: 0
+      - day: 1
+        duration: 90
+        dj: PPS
+        hour: 19
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Annca feat. Monch MC
+        hour: 20
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Urbnmowgli
+        hour: 22
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Hanna Baertig
+        hour: 0
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Monsk
+        hour: 2
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Hihat
+        hour: 4
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Shirakawa
+        hour: 12
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Bingo
+        hour: 14
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Face*
+        hour: 15
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Salty&Sour
+        hour: 17
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Gili
+        hour: 18
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: DJ Sprudel b2b Samcho Panza
+        hour: 20
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: DJ Super Rush b2b Kimchi Cora
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Ben Derris
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Melanchromie
+        hour: 1
+        minute: 30
+      - day: 3
+        duration: 90
+        dj: DJ Kareless
+        hour: 3
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: DJ Marie b2b Schumacher b2b Zwinki Zwonki
+        hour: 4
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: Turbo Tjorgen b2b Spielkamerad
+        hour: 6
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: Beate
+        hour: 8
+        minute: 30
+      - day: 3
+        duration: 90
+        dj: Pralina
+        hour: 10
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: F3lor b2b Mats Muster
+        hour: 12
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: C3to
+        hour: 14
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Nahuel
+        hour: 15
+        minute: 30
+      - day: 3
+        duration: 120
+        dj: Crille & Tamalt
+        hour: 17
+        minute: 0
+    "🦁 M(W)ild Hilde":
+      - day: 1
+        duration: 150
+        dj: El Batos
+        hour: 14
+        minute: 0
+      - day: 1
+        duration: 60
+        dj: Lui Mafuta *Live*
+        hour: 16
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Isabeau Fort
+        hour: 17
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Jane Ule
+        hour: 19
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Bonfante
+        hour: 21
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Bisu
+        hour: 23
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Kon Faber *Live*
+        hour: 1
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Urem
+        hour: 3
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Le.Fu & Baskind
+        hour: 5
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Sörös
+        hour: 7
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Jetski Freunde Saarbrücken
+        hour: 9
+        minute: 0
+      - day: 2
+        duration: 60
+        dj: Thujan *Live*
+        hour: 13
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Commander Love
+        hour: 14
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Ida Daugaard
+        hour: 16
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Coco Loris
+        hour: 18
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Haensen & Gretel
+        hour: 20
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Tvisker
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Maka
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Arne Schattenberg
+        hour: 2
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Kunterweiß
+        hour: 4
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Nora
+        hour: 6
+        minute: 0
+      - day: 3
+        duration: 60
+        dj: Flave *Live*
+        hour: 8
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: R3nata
+        hour: 9
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Martha Van Straaten
+        hour: 13
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Sutsche
+        hour: 15
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Lisa Luka
+        hour: 17
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: RSS Disco
+        hour: 19
+        minute: 0
+    "🦄 Magischer Bazar":
+      - day: 0
+        duration: 180
+        dj: Mirko Machine
+        hour: 18
+        minute: 0
+      - day: 0
+        duration: 30
+        dj: Goldy.mp3 *Live*
+        hour: 21
+        minute: 0
+      - day: 0
+        duration: 60
+        dj: Dozza & Tonyaa *Live*
+        hour: 21
+        minute: 30
+      - day: 0
+        duration: 150
+        dj: Spion & Spion
+        hour: 22
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Seagull Gall
+        hour: 1
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Tantchen 363
+        hour: 3
+        minute: 0
+      - day: 1
+        duration: 60
+        dj: Cintag & George Geil *Live*
+        hour: 14
+        minute: 30
+      - day: 1
+        duration: 60
+        dj: Lasse Junge *Live*
+        hour: 16
+        minute: 30
+      - day: 1
+        duration: 60
+        dj: Kabel 8 *Live*
+        hour: 18
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Shay
+        hour: 20
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Thrive & Gus
+        hour: 22
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Master of Recipe
+        hour: 0
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Neya
+        hour: 2
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Blyss b2b 2Bias
+        hour: 4
+        minute: 0
+      - day: 2
+        duration: 60
+        dj: Sad Fußball *Live*
+        hour: 14
+        minute: 30
+      - day: 2
+        duration: 60
+        dj: Between4and5 *Live*
+        hour: 16
+        minute: 30
+      - day: 2
+        duration: 60
+        dj: Versacer *Live*
+        hour: 18
+        minute: 30
+      - day: 2
+        duration: 60
+        dj: Das Blanke Extrem *Live*
+        hour: 20
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Maxima
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: HDGDL
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Sub Semantics
+        hour: 2
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Lax Morenz
+        hour: 4
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Devino
+        hour: 6
+        minute: 0
+      - day: 3
+        duration: 180
+        dj: Open Stage
+        hour: 8
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Acid Burrito
+        hour: 14
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Veucht
+        hour: 16
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Ohnemilchundzucker
+        hour: 18
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Surprise
+        hour: 20
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Kobilicious
+        hour: 22
+        minute: 0
+    "🪩 Discotheka":
+      - day: 0
+        duration: 120
+        dj: VEB Elektrokunst
+        hour: 22
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Justus b2b Milla Lou
+        hour: 0
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Inhärenz b2b Vallevalencia
+        hour: 2
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: The Second I
+        hour: 4
+        minute: 0
+      - day: 1
+        duration: 90
+        dj: Glitterboi
+        hour: 13
+        minute: 0
+      - day: 1
+        duration: 120
+        dj: Cloppi's
+        hour: 14
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Nici Palm
+        hour: 16
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Klackwerk
+        hour: 18
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Fauna
+        hour: 20
+        minute: 30
+      - day: 1
+        duration: 120
+        dj: Ben_Glock
+        hour: 22
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: A-Flex
+        hour: 0
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Kronik b2b Dead Sync
+        hour: 2
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Eightball
+        hour: 4
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Remsi
+        hour: 6
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Noazem
+        hour: 8
+        minute: 30
+      - day: 2
+        duration: 90
+        dj: Speedboys *Hybrid Set*
+        hour: 10
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Mondenkind
+        hour: 12
+        minute: 0
+      - day: 2
+        duration: 90
+        dj: Eskalin *Live*
+        hour: 14
+        minute: 0
+      - day: 2
+        duration: 150
+        dj: Kaddi Kippenberger
+        hour: 15
+        minute: 30
+      - day: 2
+        duration: 120
+        dj: Grace & Ghetto
+        hour: 18
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Bebbibelli b2b Simml
+        hour: 20
+        minute: 0
+      - day: 2
+        duration: 120
+        dj: Erhard Schuster
+        hour: 22
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Luv Attack
+        hour: 0
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Danito San
+        hour: 2
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: C'mon
+        hour: 4
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Ana Cover
+        hour: 6
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Praise b2b Sarah de la Rosa
+        hour: 8
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Toto Caramello
+        hour: 10
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Late Night Jockel Session
+        hour: 12
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Lupo
+        hour: 14
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Trauma Mia
+        hour: 16
+        minute: 0
+      - day: 3
+        duration: 120
+        dj: Ivana Parti
+        hour: 18
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Nik Sour b2b Allodrop
+        hour: 20
+        minute: 0
+      - day: 3
+        duration: 90
+        dj: Jøn b2b Bakaro
+        hour: 21
+        minute: 30

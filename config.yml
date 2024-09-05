@@ -24,7 +24,7 @@ meta:
  nowShowShallowBunnyAd: false
  nowShowDataSourceAd: false
  nowShowSisyDuckAd: false
- nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival (data is beeing uploaded)"
+ nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival ⚠️⚠️⚠️ data is beeing uploaded ⚠️⚠️⚠️"
  nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
  nowSubmitPR: ""
  #"https://github.com/shallowBunny/shallowbunny.com"
@@ -36,7 +36,7 @@ meta:
  roomYouAreHereEmoticon: '🐰'
  mobileAppName: "Shallow Bunny"
  prefix: "bunny"
- title: "Moyn festival lineup"
+ title: "mystic creatures festival lineup"
 
 nbDaysForInput: 3
 buttons: ["Now", "ALL", "Help"]
@@ -47,7 +47,7 @@ lineup:
   rooms:
     - "🧙 Mystic ground"
     - "🧌 Creatures Corner"
-  #  - "🦁 Freaky Forest"
+    - "🌲 Freaky Forest"
   #  - "🛝 Comic circus"
   #  - "🪩 Funky Float"
   #  - "🦄 Spirit Space"
@@ -323,3 +323,149 @@ lineup:
         hour: 14
         minute: 0
         duration: 120
+    "🌲 Freaky Forest":
+      - day: 0
+        dj: Jungspund
+        hour: 20
+        minute: 0
+      - day: 0
+        dj: Diladi
+        hour: 22
+        minute: 0
+      - day: 0
+        dj: Blake Strange
+        hour: 23
+        minute: 30
+      - day: 1
+        dj: Joseph Disco
+        hour: 1
+        minute: 0
+      - day: 1
+        dj: Kolja Broxi
+        hour: 3
+        minute: 0
+      - day: 1
+        dj: Marco Liebreiz
+        hour: 4
+        minute: 30
+      - day: 1
+        dj: LaBerg
+        hour: 6
+        minute: 0
+      - day: 1
+        dj: Tonda
+        hour: 7
+        minute: 30
+      - day: 1
+        dj: Rakäthe
+        hour: 9
+        minute: 0
+      - day: 1
+        dj: Babes2bass
+        hour: 10
+        minute: 30
+      - day: 1
+        dj: The One Million Butt Show
+        hour: 12
+        minute: 30
+      - day: 1
+        dj: Lisa Filou
+        hour: 14
+        minute: 30
+      - day: 1
+        dj: Schwirri
+        hour: 16
+        minute: 0
+      - day: 1
+        dj: BARTi
+        hour: 17
+        minute: 30
+      - day: 1
+        dj: Schmackofatz & Spinneratz
+        hour: 19
+        minute: 0
+      - day: 1
+        dj: Flanko
+        hour: 21
+        minute: 0
+      - day: 1
+        dj: Taberia
+        hour: 23
+        minute: 0
+      - day: 2
+        dj: Sabura
+        hour: 0
+        minute: 30
+      - day: 2
+        dj: Onory
+        hour: 2
+        minute: 30
+      - day: 2
+        dj: Phauna
+        hour: 4
+        minute: 0
+      - day: 2
+        dj: Sörös
+        hour: 5
+        minute: 30
+      - day: 2
+        dj: Savethedisco
+        hour: 7
+        minute: 30
+      - day: 2
+        dj: Secret
+        hour: 9
+        minute: 0
+      - day: 2
+        dj: Langstrumpf
+        hour: 10
+        minute: 30
+      - day: 2
+        dj: Zhart
+        hour: 12
+        minute: 0
+      - day: 2
+        dj: Lazy Hazy
+        hour: 12
+        minute: 0
+      - day: 2
+        dj: Taqtik
+        hour: 13
+        minute: 30
+      - day: 2
+        dj: Bisu b2b MaKa
+        hour: 17
+        minute: 0
+      - day: 2
+        dj: Melbo & Falke
+        hour: 19
+        minute: 0
+      - day: 2
+        dj: Pilocka Krach
+        hour: 21
+        minute: 0
+      - day: 2
+        dj: SILSAN
+        hour: 23
+        minute: 0
+      - day: 3
+        dj: Yooni
+        hour: 0
+        minute: 30
+      - day: 3
+        dj: SIRU
+        hour: 2
+        minute: 0
+      - day: 3
+        dj: Mira Vána
+        hour: 3
+        minute: 30
+      - day: 3
+        dj: Planet Caravan
+        hour: 5
+        minute: 0
+      - day: 3
+        dj: Antaares
+        hour: 6
+        minute: 30
+        duration: 60

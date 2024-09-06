@@ -32,7 +32,7 @@ meta:
  aboutBigIcon: "bunny-192x192.png"
  aboutShowShallowBunnyIcon: false
  aboutShowSisyDuckIcon: true
- nowMapImage: ""
+ nowMapImage: "bunny-creaturemap.webp"
  roomYouAreHereEmoticon: '🐰'
  mobileAppName: "Shallow Bunny"
  prefix: "bunny"

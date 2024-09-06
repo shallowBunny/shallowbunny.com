@@ -504,11 +504,11 @@ lineup:
         minute: 30
         duration: 90
       - day: 1
-        dj: Sensual Playfight
+        dj: 👷 Sensual Playfight
         hour: 10
         minute: 0
       - day: 1
-        dj: Zumba with Hannah
+        dj: 👷 Zumba with Hannah
         hour: 12
         minute: 0
       - day: 1
@@ -562,15 +562,15 @@ lineup:
         minute: 30
         duration: 90        
       - day: 2
-        dj: "Creatures Out of Cages: Celebrating Your Weirdness Ritual"
+        dj: "👷 Creatures Out of Cages: Celebrating Your Weirdness Ritual"
         hour: 10
         minute: 0
       - day: 2
-        dj: Drumming Workshop with Awal Idaris
+        dj: 👷 Drumming Workshop with Awal Idaris
         hour: 11
         minute: 30
       - day: 2
-        dj: Twerkshop
+        dj: 👷 Twerkshop
         hour: 13
         minute: 0
         duration: 60
@@ -784,11 +784,11 @@ lineup:
         duration: 120
     "🚀 Spirit Space":
       - day: 0
-        dj: Opening Ceremony
+        dj: 👷 Opening Ceremony
         hour: 18
         minute: 0
       - day: 0
-        dj: Consent & Flirting
+        dj: 👷 Consent & Flirting
         hour: 19
         minute: 0
       - day: 0
@@ -821,32 +821,32 @@ lineup:
         minute: 0
         duration: 180
       - day: 1
-        dj: Drum Meditation with Jacob's Sanctuary
+        dj: 👷 Drum Meditation with Jacob's Sanctuary
         hour: 9
         minute: 30
       - day: 1
-        dj: Nada Project Yoga & Sound
+        dj: 👷 Nada Project Yoga & Sound
         hour: 10
         minute: 30
       - day: 1
-        dj: Mystic Creatures Playground
+        dj: 👷 Mystic Creatures Playground
         hour: 12
         minute: 0
         duration: 90
       - day: 1
-        dj: OASIS - Open Space for Awareness
+        dj: 👷 OASIS - Open Space for Awareness
         hour: 14
         minute: 30
       - day: 1
-        dj: Supernatural Beauty Selfcare
+        dj: 👷 Supernatural Beauty Selfcare
         hour: 16
         minute: 30
       - day: 1
-        dj: Pussy Temple
+        dj: 👷 Pussy Temple
         hour: 18
         minute: 0
       - day: 1
-        dj: Cacao Quickie
+        dj: 👷 Cacao Quickie
         hour: 20
         minute: 0
       - day: 1
@@ -875,39 +875,39 @@ lineup:
         minute: 30 
         duration: 180
       - day: 2
-        dj: Soundjourney
+        dj: 👷 Soundjourney
         hour: 8
         minute: 0
       - day: 2
-        dj: Yoga
+        dj: 👷 Yoga
         hour: 9
         minute: 0
       - day: 2
-        dj: Mexican Ceremony of Cacao
+        dj: 👷 Mexican Ceremony of Cacao
         hour: 10
         minute: 0
       - day: 2
-        dj: "Symbiosis: A Somatic Breath Ritual"
+        dj: "👷 Symbiosis: A Somatic Breath Ritual"
         hour: 11
         minute: 30
       - day: 2
-        dj: "Herbal Energetics: A Sensory Experience"
+        dj: "👷 Herbal Energetics: A Sensory Experience"
         hour: 13
         minute: 0
       - day: 2
-        dj: KnetKosmos
+        dj: 👷 KnetKosmos
         hour: 14
         minute: 30
       - day: 2
-        dj: Magic Features with Mystic Creatures
+        dj: 👷 Magic Features with Mystic Creatures
         hour: 16
         minute: 30
       - day: 2
-        dj: Cacao Quickie & Pranayama
+        dj: 👷 Cacao Quickie & Pranayama
         hour: 18
         minute: 0        
       - day: 2
-        dj: Ecstatic Dance with Akashic Records
+        dj: 👷 Ecstatic Dance with Akashic Records
         hour: 18
         minute: 30
         duration: 150
@@ -936,11 +936,11 @@ lineup:
         hour: 9
         minute: 30
       - day: 3
-        dj: Natural Incense
+        dj: 👷 Natural Incense
         hour: 12
         minute: 0
       - day: 3
-        dj: Sweet Soulful Breathwork
+        dj: 👷 Sweet Soulful Breathwork
         hour: 13
         minute: 0
         duration: 90
@@ -953,7 +953,7 @@ lineup:
         hour: 17
         minute: 0
       - day: 3
-        dj: Closing Ceremony with Cacao
+        dj: 👷 Closing Ceremony with Cacao
         hour: 19
         minute: 0
         duration: 60

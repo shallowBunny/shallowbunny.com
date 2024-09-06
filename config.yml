@@ -24,7 +24,7 @@ meta:
  nowShowShallowBunnyAd: false
  nowShowDataSourceAd: false
  nowShowSisyDuckAd: false
- nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival ⚠️ data is beeing uploaded, please help by checking input is correct ⚠️"
+ nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival"
  nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
  nowSubmitPR: ""
  #"https://github.com/shallowBunny/shallowbunny.com"
@@ -265,7 +265,7 @@ lineup:
       - day: 2
         dj: Late Night Jockel Session with HuGs
         hour: 11
-        minute: 3
+        minute: 30
       - day: 2
         dj: Heimlich Knüller
         hour: 13
@@ -925,16 +925,16 @@ lineup:
         minute: 0
       - day: 3
         dj: Faik Muchs
-        hour: 6
+        hour: 3
         minute: 0
       - day: 3
         dj: DJ Putilla
         hour: 6
-        minute: 30        
+        minute: 0        
       - day: 3
         dj: MINQ
         hour: 9
-        minute: 30
+        minute: 0
       - day: 3
         dj: 👷 Natural Incense
         hour: 12

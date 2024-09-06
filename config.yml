@@ -48,7 +48,7 @@ lineup:
     - "🧙 Mystic ground"
     - "🧌 Creatures Corner"
     - "🌲 Freaky Forest"
-  #  - "🛝 Comic circus"
+    - "🎪 Comic circus"
   #  - "🪩 Funky Float"
   #  - "🦄 Spirit Space"
   #  - "🖨 Others"
@@ -426,12 +426,12 @@ lineup:
         minute: 0
       - day: 2
         dj: Lazy Hazy
-        hour: 12
-        minute: 0
-      - day: 2
-        dj: Taqtik
         hour: 13
         minute: 30
+      - day: 2
+        dj: Taqtik
+        hour: 15
+        minute: 0
       - day: 2
         dj: Bisu b2b MaKa
         hour: 17
@@ -467,5 +467,167 @@ lineup:
       - day: 3
         dj: Antaares
         hour: 6
+        minute: 30
+        duration: 60
+    "🎪 Comic circus":
+      - day: 0
+        dj: Nat Gohl
+        hour: 19
+        minute: 30
+      - day: 0
+        dj: "Andy's Echo"
+        hour: 21
+        minute: 30
+      - day: 0
+        dj: Sassafras Tree
+        hour: 23
+        minute: 0
+      - day: 1
+        dj: Oberst & Buchner
+        hour: 1
+        minute: 0
+      - day: 1
+        dj: F.I.E.L.D.Y
+        hour: 3
+        minute: 0
+      - day: 1
+        dj: Rafa'EL
+        hour: 4
+        minute: 30
+      - day: 1
+        dj: CJ Art
+        hour: 6
+        minute: 0
+      - day: 1
+        dj: Natanael Megersa
+        hour: 7
+        minute: 30
+        duration: 90
+      - day: 1
+        dj: Sensual Playfight
+        hour: 10
+        minute: 0
+      - day: 1
+        dj: Zumba with Hannah
+        hour: 12
+        minute: 0
+      - day: 1
+        dj: Kiezchor
+        hour: 13
+        minute: 0
+      - day: 1
+        dj: Hans From Space
+        hour: 14
+        minute: 0
+      - day: 1
+        dj: Midas 104
+        hour: 15
+        minute: 30
+        duration: 90
+      - day: 1
+        dj: Stavroz
+        hour: 18
+        minute: 0
+      - day: 1
+        dj: Mimi Love
+        hour: 19
+        minute: 30
+      - day: 1
+        dj: Tummentott
+        hour: 21
+        minute: 30
+      - day: 2
+        dj: Mona Pirzad
+        hour: 23
+        minute: 30
+      - day: 2
+        dj: Mad Son
+        hour: 1
+        minute: 0
+      - day: 2
+        dj: katzenhold
+        hour: 2
+        minute: 30        
+      - day: 2
+        dj: Moritz Butschek
+        hour: 4
+        minute: 0        
+      - day: 2
+        dj: Robin Schellenberg
+        hour: 5
+        minute: 30
+      - day: 2
+        dj: Jawwa
+        hour: 7
+        minute: 30
+        duration: 90        
+      - day: 2
+        dj: "Creatures Out of Cages: Celebrating Your Weirdness Ritual"
+        hour: 10
+        minute: 0
+      - day: 2
+        dj: Drumming Workshop with Awal Idaris
+        hour: 11
+        minute: 30
+      - day: 2
+        dj: Twerkshop
+        hour: 13
+        minute: 0
+        duration: 60
+      - day: 2
+        dj: Saraabb
+        hour: 14
+        minute: 30
+      - day: 2
+        dj: Swaytone
+        hour: 16
+        minute: 0
+      - day: 2
+        dj: Mcfly
+        hour: 17
+        minute: 30
+      - day: 2
+        dj: ShangoMx
+        hour: 19
+        minute: 0
+      - day: 2
+        dj: Under Damascus
+        hour: 20
+        minute: 30
+      - day: 2
+        dj: Karlo Kurbel
+        hour: 22
+        minute: 0
+      - day: 2
+        dj: Esther Silex & Madmotorique
+        hour: 23
+        minute: 30
+      - day: 3
+        dj: Prismode & Solvane
+        hour: 1
+        minute: 30
+      - day: 3
+        dj: CREAM
+        hour: 3
+        minute: 30
+      - day: 3
+        dj: Lamadeus
+        hour: 5
+        minute: 0
+      - day: 3
+        dj: Etzo
+        hour: 6
+        minute: 30
+      - day: 3
+        dj: Faulchen Fänther
+        hour: 8
+        minute: 0
+      - day: 3
+        dj: Nur Simon
+        hour: 9
+        minute: 30
+      - day: 3
+        dj: Crescendo Berlin
+        hour: 11
         minute: 30
         duration: 60

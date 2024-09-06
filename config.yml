@@ -24,7 +24,7 @@ meta:
  nowShowShallowBunnyAd: false
  nowShowDataSourceAd: false
  nowShowSisyDuckAd: false
- nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival ⚠️⚠️⚠️ data is beeing uploaded ⚠️⚠️⚠️"
+ nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival ⚠️ data is beeing uploaded, please help by checking input is correct ⚠️"
  nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
  nowSubmitPR: ""
  #"https://github.com/shallowBunny/shallowbunny.com"
@@ -49,8 +49,8 @@ lineup:
     - "🧌 Creatures Corner"
     - "🌲 Freaky Forest"
     - "🎪 Comic circus"
-  #  - "🪩 Funky Float"
-  #  - "🦄 Spirit Space"
+    - "🎷 Funky Float"
+    - "🚀 Spirit Space"
   #  - "🖨 Others"
   sets:
     "🧙 Mystic ground":
@@ -630,4 +630,330 @@ lineup:
         dj: Crescendo Berlin
         hour: 11
         minute: 30
+        duration: 60
+    "🎷 Funky Float":
+      - day: 0
+        dj: FRYSCH
+        hour: 16
+        minute: 0
+        duration: 120
+      - day: 0
+        dj: elegant verlottet
+        hour: 18
+        minute: 0
+        duration: 120
+      - day: 0
+        dj: Poppy
+        hour: 20
+        minute: 0
+      - day: 0
+        dj: Leon
+        hour: 21
+        minute: 30
+      - day: 0
+        dj: Andshe
+        hour: 23
+        minute: 0
+      - day: 1
+        dj: Lili Hauser
+        hour: 0
+        minute: 30
+      - day: 1
+        dj: Alace Doom
+        hour: 2
+        minute: 0
+        duration: 90
+
+      # Gap until 10
+
+      - day: 1
+        dj: Davide
+        hour: 10
+        minute: 0
+      - day: 1
+        dj: Rafaelo
+        hour: 12
+        minute: 0
+      - day: 1
+        dj: Hilden
+        hour: 13
+        minute: 30
+      - day: 1
+        dj: pokka
+        hour: 15
+        minute: 0
+      - day: 1
+        dj: goldie
+        hour: 16
+        minute: 30
+      - day: 1
+        dj: Rob Roberts
+        hour: 18
+        minute: 0
+      - day: 1
+        dj: RSS Disco
+        hour: 19
+        minute: 30
+      - day: 1
+        dj: Aylish & Milan Auch
+        hour: 21
+        minute: 30
+      - day: 1
+        dj: Ane
+        hour: 23
+        minute: 30
+      - day: 2
+        dj: Luke Wackelkopf & Galactica Goldenshowers
+        hour: 1
+        minute: 0
+        duration: 120
+
+      - day: 2
+        dj: E-Gerät
+        hour: 10
+        minute: 0
+      - day: 2
+        dj: Gina Scirocco
+        hour: 12
+        minute: 0
+      - day: 2
+        dj: Matteo Solero
+        hour: 13
+        minute: 30
+      - day: 2
+        dj: Cosmic Dance Kitchen
+        hour: 15
+        minute: 0
+      - day: 2
+        dj: Frau Levi
+        hour: 17
+        minute: 0
+      - day: 2
+        dj: Haensen & Gretel
+        hour: 18
+        minute: 30
+      - day: 2
+        dj: Lulu Malina
+        hour: 20
+        minute: 30
+      - day: 2
+        dj: Nora Wolkenstein
+        hour: 22
+        minute: 30
+      - day: 3
+        dj: Rieke Lenz b2b iamhannahmai
+        hour: 0
+        minute: 0
+      - day: 3
+        dj: Lepiszce
+        hour: 2
+        minute: 0
+      - day: 3
+        dj: SIMA & Kobier
+        hour: 4
+        minute: 0
+      - day: 3
+        dj: Ben Born & Lim Banda
+        hour: 6
+        minute: 0
+      - day: 3
+        dj: Yusuf Lemone
+        hour: 8
+        minute: 0
+      - day: 3
+        dj: Gräfin Zobel
+        hour: 10
+        minute: 0
+        duration: 120
+      - day: 3
+        dj: Foxall
+        hour: 14
+        minute: 0
+      - day: 3
+        dj: Kotoe
+        hour: 16
+        minute: 0
+      - day: 3
+        dj: Hr.Klotz feat. Heinrich
+        hour: 18
+        minute: 0
+      - day: 3
+        dj: REYNEKE
+        hour: 20
+        minute: 0
+        duration: 120
+    "🚀 Spirit Space":
+      - day: 0
+        dj: Opening Ceremony
+        hour: 18
+        minute: 0
+      - day: 0
+        dj: Consent & Flirting
+        hour: 19
+        minute: 0
+      - day: 0
+        dj: DLTA
+        hour: 20
+        minute: 30
+      - day: 0
+        dj: True Nature
+        hour: 21
+        minute: 30
+      - day: 0
+        dj: Ursubjektiv
+        hour: 23
+        minute: 30
+      - day: 1
+        dj: Gooral
+        hour: 1
+        minute: 30
+      - day: 1
+        dj: Nehbel
+        hour: 3
+        minute: 0
+      - day: 1
+        dj: Fractal Tree
+        hour: 5
+        minute: 0
+      - day: 1
+        dj: DJ Wasser
+        hour: 6
+        minute: 0
+        duration: 180
+      - day: 1
+        dj: Drum Meditation with Jacob's Sanctuary
+        hour: 9
+        minute: 30
+      - day: 1
+        dj: Nada Project Yoga & Sound
+        hour: 10
+        minute: 30
+      - day: 1
+        dj: Mystic Creatures Playground
+        hour: 12
+        minute: 0
+        duration: 90
+      - day: 1
+        dj: OASIS - Open Space for Awareness
+        hour: 14
+        minute: 30
+      - day: 1
+        dj: Supernatural Beauty Selfcare
+        hour: 16
+        minute: 30
+      - day: 1
+        dj: Pussy Temple
+        hour: 18
+        minute: 0
+      - day: 1
+        dj: Cacao Quickie
+        hour: 20
+        minute: 0
+      - day: 1
+        dj: Karukene
+        hour: 20
+        minute: 30
+      - day: 1
+        dj: The Dropdown Menu
+        hour: 21
+        minute: 30
+      - day: 1
+        dj: Ermaniguada
+        hour: 22
+        minute: 30
+      - day: 2
+        dj: Malú & KalypSoul
+        hour: 0
+        minute: 30
+      - day: 2
+        dj: KaleidosLoop
+        hour: 2
+        minute: 30
+      - day: 2
+        dj: Narfux
+        hour: 4
+        minute: 30 
+        duration: 180
+      - day: 2
+        dj: Soundjourney
+        hour: 8
+        minute: 0
+      - day: 2
+        dj: Yoga
+        hour: 9
+        minute: 0
+      - day: 2
+        dj: Mexican Ceremony of Cacao
+        hour: 10
+        minute: 0
+      - day: 2
+        dj: "Symbiosis: A Somatic Breath Ritual"
+        hour: 11
+        minute: 30
+      - day: 2
+        dj: "Herbal Energetics: A Sensory Experience"
+        hour: 13
+        minute: 0
+      - day: 2
+        dj: KnetKosmos
+        hour: 14
+        minute: 30
+      - day: 2
+        dj: Magic Features with Mystic Creatures
+        hour: 16
+        minute: 30
+      - day: 2
+        dj: Cacao Quickie & Pranayama
+        hour: 18
+        minute: 0        
+      - day: 2
+        dj: Ecstatic Dance with Akashic Records
+        hour: 18
+        minute: 30
+        duration: 150
+      - day: 2
+        dj: Future3
+        hour: 21
+        minute: 30
+      - day: 2
+        dj: MKK Jam Crew
+        hour: 22
+        minute: 30
+      - day: 3
+        dj: Magic Turtle
+        hour: 2
+        minute: 0
+      - day: 3
+        dj: Faik Muchs
+        hour: 6
+        minute: 0
+      - day: 3
+        dj: DJ Putilla
+        hour: 6
+        minute: 30        
+      - day: 3
+        dj: MINQ
+        hour: 9
+        minute: 30
+      - day: 3
+        dj: Natural Incense
+        hour: 12
+        minute: 0
+      - day: 3
+        dj: Sweet Soulful Breathwork
+        hour: 13
+        minute: 0
+        duration: 90
+      - day: 3
+        dj: Patrick Luwak
+        hour: 15
+        minute: 0
+      - day: 3
+        dj: Siti Naturaleza & Cosmonaut
+        hour: 17
+        minute: 0
+      - day: 3
+        dj: Closing Ceremony with Cacao
+        hour: 19
+        minute: 0
         duration: 60

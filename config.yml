@@ -25,7 +25,7 @@ meta:
  nowShowDataSourceAd: false
  nowShowSisyDuckAd: false
  nowTextAfterMap: "shallowbunny.com is an unofficial lineup web app, now running for mystic creatures festival"
- nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
+ #nowTextWhenFinished: "shallowbunny.com is a festival (unofficial) lineup web app"
  nowSubmitPR: ""
  #"https://github.com/shallowBunny/shallowbunny.com"
  botUrl:  "https://t.me/shallowBunnyBot"
